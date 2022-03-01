@@ -1,0 +1,21 @@
+{
+    "name": "webpack-javascript-template",
+    "version": "0.1.0",
+    "description": "A Javascript web app project that just works",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "template",
+        "scaffold",
+        "javascript",
+        "webpack"
+    ],
+    "license": "0BSD",
+    "devDependencies": {
+        "prettier": "^2.5.1",
+        "serve": "^13.0.2",
+        "webpack": "^5.69.1",
+        "webpack-cli": "^4.9.2"
+    }
+}
