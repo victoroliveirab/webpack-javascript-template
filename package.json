@@ -3,7 +3,10 @@
     "version": "0.1.0",
     "description": "A Javascript web app project that just works",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+      "prebuild": "rm -rf ./www && scp -r ./public ./www",
+      "build": "webpack --mode production",
+      "prestart": "npm run prebuild",
+      "start": "serve -s ./www & webpack --watch"
     },
     "keywords": [
         "template",
